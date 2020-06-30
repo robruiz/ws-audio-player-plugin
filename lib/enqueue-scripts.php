@@ -1,6 +1,6 @@
 <?php
 
-namespace Gutenberg_Courses\Example_Blocks;
+namespace WSAudioPlayer;
 
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
 /**

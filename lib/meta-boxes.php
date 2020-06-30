@@ -1,6 +1,6 @@
 <?php
 
-namespace Gutenberg_Courses\Example_Blocks;
+namespace WSAudioPlayer;
 
 add_action( 'init', __NAMESPACE__ . '\register_meta_fields' );
 /**

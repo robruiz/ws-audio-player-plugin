@@ -3,7 +3,7 @@
  * Plugin's bootstrap file to launch the plugin.
  *
  * @package     Wavesufer Audio Player Plugin
- * @author      Zac Gordon (@zgordon)
+ * @author      Rob Ruiz (@robcruiz)
  * @license     GPL2+
  *
  * @wordpress-plugin
@@ -19,7 +19,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-namespace Gutenberg_Courses\Example_Blocks;
+namespace WSAudioPlayer;
 
 //  Exit if accessed directly.
 defined('ABSPATH') || exit;
