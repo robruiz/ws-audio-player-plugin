@@ -2,17 +2,17 @@
 /**
  * Plugin's bootstrap file to launch the plugin.
  *
- * @package     Gutenberg_Courses\Example_Blocks
+ * @package     Wavesufer Audio Player Plugin
  * @author      Zac Gordon (@zgordon)
  * @license     GPL2+
  *
  * @wordpress-plugin
- * Plugin Name: Gutenberg - Example Blocks
- * Plugin URI:  https://gutenberg.courses
- * Description: A plugin containing example blocks for developers.  From <a href="https://gutenberg.courses/development">Zac Gordon's Gutenberg Development Course</a>.
- * Version:     3.1.0
- * Author:      Zac Gordon
- * Author URI:  https://twitter.com/zgordon
+ * Plugin Name: Wavesufer Audio Player
+ * Plugin URI:  https://bizzledesigns.com/wavesurfer-audio-player
+ * Description: A plugin that adds the Wavesurfer Audio Player Web Component to WordPress
+ * Version:     1.0
+ * Author:      Rob Ruiz
+ * Author URI:  https://twitter.com/robcruiz
  * Text Domain: bizzleblocks
  * Domain Path: /languages
  * License:     GPL2+
