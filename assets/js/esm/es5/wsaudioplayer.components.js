@@ -1,0 +1,2 @@
+// wsAudioPlayer: Host Data, ES Module/es5 Target
+export var WSAudioPlayer = ["ws-audio-player","zqwpvavl",1,[["audio",1,0,1,2],["color",1,0,1,2],["create",32],["curTime",16],["duration",2,0,1,2],["el",64],["height",1,0,1,2],["isPlaying",16],["playpause",32],["theme",1,0,1,2],["title",1,0,1,2]],1];

@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "tag": "ws-audio-player",
+      "dependencies": [],
+      "componentClass": "WSAudioPlayer",
+      "componentPath": "components/ws-audio-player/ws-audio-player.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/ws-audio-player/ws-audio-player.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "audio",
+          "type": "String",
+          "attr": "audio",
+          "watch": [
+            "watchHandler"
+          ]
+        },
+        {
+          "name": "color",
+          "type": "String",
+          "attr": "color"
+        },
+        {
+          "name": "duration",
+          "type": "String",
+          "mutable": true,
+          "attr": "duration"
+        },
+        {
+          "name": "height",
+          "type": "String",
+          "attr": "height"
+        },
+        {
+          "name": "theme",
+          "type": "String",
+          "attr": "theme"
+        },
+        {
+          "name": "title",
+          "type": "String",
+          "attr": "title"
+        }
+      ],
+      "states": [
+        {
+          "name": "curTime"
+        },
+        {
+          "name": "isPlaying"
+        }
+      ],
+      "methods": [
+        {
+          "name": "create"
+        },
+        {
+          "name": "playpause"
+        }
+      ],
+      "hostElement": {
+        "name": "el"
+      },
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}
