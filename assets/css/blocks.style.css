@@ -1,0 +1,17 @@
+.entry .entry-content .wp-block-bizzleblocks-ws-audio-player,
+.wp-block-bizzleblocks-ws-audio-player {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 15px; }
+  .entry .entry-content .wp-block-bizzleblocks-ws-audio-player h2,
+  .wp-block-bizzleblocks-ws-audio-player h2 {
+    color: #f7b733;
+    font-size: 2rem;
+    margin: 1rem 0; }
+  .entry .entry-content .wp-block-bizzleblocks-ws-audio-player p,
+  .wp-block-bizzleblocks-ws-audio-player p {
+    font-size: 1.4rem; }
+  .entry .entry-content .wp-block-bizzleblocks-ws-audio-player li,
+  .wp-block-bizzleblocks-ws-audio-player li {
+    list-style-position: inside; }

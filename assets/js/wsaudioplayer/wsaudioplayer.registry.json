@@ -1,0 +1,15 @@
+{
+  "namespace": "wsAudioPlayer",
+  "fsNamespace": "wsaudioplayer",
+  "loader": "../wsaudioplayer.js",
+  "core": "wsaudioplayer.bqdv1jlm.js",
+  "corePolyfilled": "wsaudioplayer.ya3yv9up.js",
+  "components": {
+    "ws-audio-player": {
+      "bundleIds": {
+        "$": "4esepdgj"
+      },
+      "encapsulation": "shadow"
+    }
+  }
+}
