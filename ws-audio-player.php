@@ -7,7 +7,7 @@
  * @license     GPL2+
  *
  * @wordpress-plugin
- * Plugin Name: Wavesurfer Audio Player
+ * Plugin Name: Wavesurfer Audio Player Block
  * Plugin URI:  https://bizzledesigns.com/wavesurfer-audio-player
  * Description: A plugin that adds the Wavesurfer Audio Player Web Component to WordPress
  * Version:     1.0

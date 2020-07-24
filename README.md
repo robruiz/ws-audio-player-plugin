@@ -1,10 +1,10 @@
-# Wavesurfer Audio Player Block
+# Wavesurfer Audio Player block
 
 [View the wavesurfer web component on Github >>](https://github.com/robruiz/WSAudioPlayer)
 
 ## Plugin Contents
 
-1. Gutenberg Block that adds an audio player web component to a page
+1. Gutenberg block that adds an audio player web component to a page
 
 ## Example File Instructions
 
