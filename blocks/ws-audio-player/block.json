@@ -4,5 +4,6 @@
   "description": "An audio player that renders the waveforms of the audio loaded.",
   "keywords": [ "mp3", "audio", "music", "player", "sound", "waveform" ],
   "category": "media",
-  "editorScript": "file:./blocks/index.js"
+  "editorScript": "file:./assets/js/editor.blocks.js",
+  "editorStyle": "file:./assets/css/blocks.editor.css"
 }
