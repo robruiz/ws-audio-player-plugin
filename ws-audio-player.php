@@ -7,7 +7,7 @@
  * @license     GPL2+
  *
  * @wordpress-plugin
- * Plugin Name: Wavesufer Audio Player
+ * Plugin Name: Wavesurfer Audio Player
  * Plugin URI:  https://bizzledesigns.com/wavesurfer-audio-player
  * Description: A plugin that adds the Wavesurfer Audio Player Web Component to WordPress
  * Version:     1.0
@@ -19,7 +19,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-namespace WSAudioPlayer;
+namespace WavesurferAudioPlayer;
 
 //  Exit if accessed directly.
 defined('ABSPATH') || exit;

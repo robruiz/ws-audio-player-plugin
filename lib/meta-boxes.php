@@ -1,6 +1,6 @@
 <?php
 
-namespace WSAudioPlayer;
+namespace WavesurferAudioPlayer;
 
 add_action( 'init', __NAMESPACE__ . '\register_meta_fields' );
 /**

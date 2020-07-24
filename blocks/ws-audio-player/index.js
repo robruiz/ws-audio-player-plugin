@@ -57,6 +57,13 @@ export default registerBlockType(
                 attribute: 'color',
                 default: 'Red'
             },
+            theme: {
+                type: 'string',
+                source: 'attribute',
+                selector: 'ws-audio-player',
+                attribute: 'theme',
+                default: 'basic'
+            },
             height: {
                 type: 'string',
                 source: 'attribute',
@@ -79,6 +86,7 @@ export default registerBlockType(
             const onChangeTitle = (e) => {setAttributes( {title: e.currentTarget.value} ) };
             const onChangeURL = (e) => setAttributes( { audio: e.currentTarget.value } );
             const onChangeColor = (e) => setAttributes( { color: e.currentTarget.value } );
+            const onChangeTheme = (e) => setAttributes( { theme: e.currentTarget.value } );
             const onChangeHeight = (e) => setAttributes( { height: e.currentTarget.value } );
             const onChangeAudio = (e) => setAttributes( {audio: e.url} );
 
@@ -102,11 +110,15 @@ export default registerBlockType(
                         </MediaUploadCheck>
                     <input  type="text" value={props.attributes.audio} onChange={onChangeURL} /></p>
                     <p><label>Title: </label><input type="text" value={props.attributes.title} onChange={onChangeTitle} /></p>
+                    <p><label>Theme: </label><select type="select" value={props.attributes.theme} onChange={onChangeTheme} >
+                        <option name="theme" value="basic">Basic</option>
+                        <option name="theme" value="dark">Dark</option>
+                    </select></p>
                     <p><label>Color: </label><input type="text" value={props.attributes.color} onChange={onChangeColor} /></p>
                     <p><label>Height: </label><input type="number" value={props.attributes.height} onChange={onChangeHeight} /></p>
                 </InspectorControls>
                 ,
-                <ws-audio-player audio={ props.attributes.audio} title={props.attributes.title} color={props.attributes.color} height={props.attributes.height}></ws-audio-player>
+                <ws-audio-player audio={ props.attributes.audio} title={props.attributes.title} theme={props.attributes.theme} color={props.attributes.color} height={props.attributes.height}></ws-audio-player>
             ];
         },
         save: props => {
@@ -116,6 +128,7 @@ export default registerBlockType(
                     title={props.attributes.title}
                     color={props.attributes.color}
                     height={props.attributes.height}
+                    theme={props.attributes.theme}
                 >
                 </ws-audio-player>
             );
