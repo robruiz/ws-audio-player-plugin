@@ -1,9 +1,12 @@
 {
   "name": "robruiz/ws-audio-player",
   "title": "Wavesurfer Audio Player",
+  "icon": "wsPlayer",
   "description": "An audio player that renders the waveforms of the audio loaded.",
   "keywords": [ "mp3", "audio", "music", "player", "sound", "waveform" ],
   "category": "media",
   "editorScript": "file:./assets/js/editor.blocks.js",
-  "editorStyle": "file:./assets/css/blocks.editor.css"
+  "editorStyle": "file:./assets/css/blocks.editor.css",
+  "script":  "file:./assets/js/frontend.blocks.js",
+  "style":  "file:./assets/css/blocks.style.css"
 }
