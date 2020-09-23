@@ -1,5 +1,5 @@
 {
-  "name": "robruiz/ws-audio-player",
+  "name": "bizzleblocks/ws-audio-player",
   "title": "Wavesurfer Audio Player",
   "icon": "wsPlayer",
   "description": "An audio player that renders the waveforms of the audio loaded.",
