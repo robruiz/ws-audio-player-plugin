@@ -1,7 +1,7 @@
 # Wavesurfer Audio Player block
 
 Contributors: robcruiz<br />
-Tags: block<br />
+Tags: block <br />
 Requires at least: 5.5<br />
 Tested up to: 5.5<br />
 Requires PHP: 7.2<br />
