@@ -5,7 +5,7 @@ Tags: block <br />
 Requires at least: 5.5<br />
 Tested up to: 5.5<br />
 Requires PHP: 7.2<br />
-Stable tag: 5.5<br />
+Stable tag: 1.0<br />
 License: GPLv2 or later<br />
 
 A plugin that adds the Wavesurfer Audio Player Web Component to WordPress
