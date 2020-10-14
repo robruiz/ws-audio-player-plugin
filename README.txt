@@ -21,6 +21,6 @@ Audio for the player is stored in WordPress as media.
 
 ## Plugin Contents
 
-1. Gutenberg "block" that adds an audio player web component to a page
+1. Gutenberg "block" that adds an audio player web component with waveforms to a page
 
 
